@@ -5,13 +5,13 @@ import (
 )
 
 //function
-//this is function returninng 1 integer
+//this is function return 1 integer
 func printNumber()  int{
 
 	fmt.Println("you called the printNumber function")
 
 	//what value will be returned?
-	//declarating retured value
+	//declaring returned value
 	return 10
 
 }

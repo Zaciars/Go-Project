@@ -13,9 +13,11 @@ var number = "1 day!!!"
 
 //combining two variable
 
-var name_1 = "Alif"
+var name1 = "Alif"
 var name2 = "Zakiansyah"
-var nameFull = name_1 + " " + name2
+var (
+	nameFull = name1 + " " + name2
+)
 
 //declaring two variable in one line
 
@@ -40,7 +42,7 @@ func main() {
 
 	fmt.Println("my name is " + nameFull)
 
-	fmt.Println("you can call me " + name_1)
+	fmt.Println("you can call me " + name1)
 
 	//printing int
 	fmt.Println("i was ",age ,"years old when i wrote this")
