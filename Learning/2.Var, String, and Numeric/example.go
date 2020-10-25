@@ -1,9 +1,15 @@
 package main
 
 //this is how to comments
+/*
+	this
+	is
+	block
+	comment
+ */
 
 import (
-	"fmt"
+	"fmt" //example of inline comment
 )
 
 //variable - tipe data = string
